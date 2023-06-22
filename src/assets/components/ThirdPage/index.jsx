@@ -59,7 +59,7 @@ export default function ThirdPage() {
 
     const LargeTabMenu = () =>
     <div className='hidden md:block relative md:h-[93vh] overflow-hidden flex justify-center z-0'>
-        {Tab === 1 ? <img src={Background} className={`w-screen h-full object-bottom object-cover tabImage`} /> : <div className='tabImage'><img src={Background2} className='w-screen h-full object-top object-cover' /></div> }
+        {Tab === 1 ? <img alt='Mountain 1 Background Image' loading='lazy' src={Background} className={`w-screen h-full object-bottom object-cover tabImage`} /> : <div className='tabImage'><img alt='Mountain 1 Background Image' loading='lazy' src={Background2} className='w-screen h-full object-top object-cover' /></div> }
         <div className='absolute top-0 w-screen h-10 bg-[#414f6b]'>
             <div className='w-screen max-w-[960px] h-full flex flex-row items-center mx-auto'>
                 <div onClick={() => setTab(1)} className={`group h-full w-[140px] ${Tab === 1 ? 'bg-[#b0b4be] text-[#414f6b]' : 'hover:cursor-pointer bg-[#414f6b] text-[#b0b4be]'} pb-1 font-oswald text-[20px] uppercase flex flex-col justify-center items-center font-bold tracking-[1px]`}>
@@ -80,7 +80,7 @@ export default function ThirdPage() {
             <div className='relative flex flex-row items-center h-full max-w-[960px] mx-auto z-20'>
                 
                 <div className='relative ml-4 h-[45px] w-[45px]'>
-                    <img src={Logo1} className='absolute top-0 h-full w-full z-0' />
+                    <img alt='Los Angeles Mountains Alternate Blue Logo' loading='lazy' src={Logo1} className='absolute top-0 h-full w-full z-0' />
                     <div className='absolute top-0 h-full w-full z-10 bg-[#63769d] opacity-60 rounded-full' />
                 </div>
 
@@ -153,7 +153,7 @@ export default function ThirdPage() {
                 <div className='relative flex flex-row items-center h-full max-w-[960px] mx-auto z-20'>
 
                     <div className='relative ml-4 h-[45px] w-[45px]'>
-                        <img src={Logo1} className='absolute top-0 h-full w-full z-0' />
+                        <img alt='Los Angeles Mountains Alternate Blue Logo' loading='lazy' src={Logo1} className='absolute top-0 h-full w-full z-0' />
                         <div className='absolute top-0 h-full w-full z-10 bg-[#63769d] opacity-60 rounded-full' />
                     </div>
 
