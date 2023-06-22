@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+    overflow-x:hidden;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+body {
+    -ms-overflow-style: none;
+}
+
+html {
+    scrollbar-width: none;
+}
+
+.condense {
+    font-stretch: condensed;
+}
+
+.tabImage {
+    animation-name: fadeInTab;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
+@keyframes fadeInTab {
+    from {
+        opacity: .6;
+    }
+    to {
+        opacity: 1;
+    }
+}
