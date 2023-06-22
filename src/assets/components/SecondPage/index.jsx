@@ -42,7 +42,7 @@ export default function SecondPage() {
             <div className='relative w-screen bg-white h-20 z-10'>
                 <div className='relative flex flex-row items-center h-full max-w-[960px] mx-auto'>
 
-                    <img src={Logo} className=' pl-4 h-[45px]' />
+                    <img alt='Los Angeles Mountains Logo' loading='lazy' src={Logo} className=' pl-4 h-[45px]' />
 
                     <p className='ml-2 mt-1 font-bold font-bebas font-lighter tracking-[2px] leading-[18px]'>
                         <span className='text-[#4d4d4d] text-[21.18px]'>LOSANGELES</span>
@@ -65,7 +65,7 @@ export default function SecondPage() {
             {/* Background Image */}
 
             <div ref={assignRef} className='relative h-auto overflow-hidden flex justify-center z-0'>
-                <img src={Background} className='w-screen h-[100vh] sm:h-[145vh] object-top object-cover' />
+                <img alt='Page 2 Mountaine Background Image' loading='lazy' src={Background} className='w-screen h-[100vh] sm:h-[145vh] object-top object-cover' />
 
                 <div className='absolute -top-6 md:top-6 w-screen max-w-[960px] px-2'>
                     <div className='ml-6 md:ml-0 flex flex-row h-auto w-auto'>
@@ -93,23 +93,23 @@ export default function SecondPage() {
                             infiniteLoop={true}
                         >
                             <div className='grid grid-cols-2 md:grid-cols-4 gap-2 pb-10'>
-                                <img className='object-fit' src={Carousel1} />
-                                <img className='object-fit' src={Carousel2} />
-                                <img className='object-fit' src={Carousel1} />
-                                <img className='object-fit' src={Carousel2} />
+                                <img alt='Carousel Image of Man on Mountain' loading='lazy' className='object-fit' src={Carousel1} />
+                                <img alt='Carousel Image of Mountainscape' loading='lazy' className='object-fit' src={Carousel2} />
+                                <img alt='Carousel Image of Man on Mountain' loading='lazy' className='object-fit' src={Carousel1} />
+                                <img alt='Carousel Image of Mountainscape' loading='lazy' className='object-fit' src={Carousel2} />
                             </div>
                             
                             <div className='grid grid-cols-2 md:grid-cols-4 gap-2 pb-10'>
-                                <img className='object-fit' src={Carousel1} />
-                                <img className='object-fit' src={Carousel2} />
-                                <img className='object-fit' src={Carousel1} />
-                                <img className='object-fit' src={Carousel2} />
+                                <img alt='Carousel Image of Man on Mountain' loading='lazy' className='object-fit' src={Carousel1} />
+                                <img alt='Carousel Image of Mountainscape' loading='lazy' className='object-fit' src={Carousel2} />
+                                <img alt='Carousel Image of Man on Mountain' loading='lazy' className='object-fit' src={Carousel1} />
+                                <img alt='Carousel Image of Mountainscape' loading='lazy' className='object-fit' src={Carousel2} />
                             </div>
                             <div className='grid grid-cols-2 md:grid-cols-4 gap-2 pb-10'>
-                                <img className='object-fit' src={Carousel1} />
-                                <img className='object-fit' src={Carousel2} />
-                                <img className='object-fit' src={Carousel1} />
-                                <img className='object-fit' src={Carousel2} />
+                                <img alt='Carousel Image of Man on Mountain' loading='lazy' className='object-fit' src={Carousel1} />
+                                <img alt='Carousel Image of Mountainscape' loading='lazy' className='object-fit' src={Carousel2} />
+                                <img alt='Carousel Image of Man on Mountain' loading='lazy' className='object-fit' src={Carousel1} />
+                                <img alt='Carousel Image of Mountainscape' loading='lazy' className='object-fit' src={Carousel2} />
                             </div>
 
                         </Carousel>
